@@ -20,7 +20,7 @@
 
 This simple HTML file uses best practices for accessility and programming.
 
-[Deployed Basic HTML/FLEX Link ](https://volodya1989.github.io/goit-markup-hw-03/)
+[Deployed Decarative Efects HTML Link ](https://volodya1989.github.io/goit-markup-hw-04/)
 
 
 
