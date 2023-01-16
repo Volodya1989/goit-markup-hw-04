@@ -18,6 +18,7 @@
   --margin-24: 24px;
   --margin-48: 48px;
   --padding-margin-none: 0;
+  --drop-shadow: X0 Y1 B6 S0 #2e2f42;
 }
 body {
   font-family: var(--brand-primary-fonts);
@@ -318,6 +319,10 @@ img {
 .project-card:focus {
   background-blend-mode: soft-light;
   mix-blend-mode: normal;
+}
+.project-list >.prj-item:hover,
+.project-list >.prj-item:focus {
+  box-shadow: var(--drop-shadow);
 }
 
 footer {
