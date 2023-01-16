@@ -197,7 +197,28 @@ p {
 .team-member:not(:last-child) {
   margin-right: var(--margin-24);
 }
-
+.value-item::before {
+  display: block;
+  content: '';
+  height: 112px;
+  margin-bottom: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--bg-cloud-color);
+}
+.icon-strategy::before {
+  background-image: url(../images/icons.svg/icon-strategy_1.svg);
+}
+.icon-punctuality::before {
+  background-image: url(../images/icons.svg/icon-punctuality_2.svg);
+}
+.icon-diligence::before {
+  background-image: url(../images/icons.svg/icon-diligence-3.svg);
+}
+.icon-technologies::before {
+  background-image: url(../images/icons.svg/icon-technoligies_4.svg);
+}
 .filter-list {
   display: flex;
   justify-content: center;
