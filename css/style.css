@@ -144,8 +144,22 @@ p {
 }
 
 /* index page main section */
-.section-one {
+.overlay {
+  background: var(--primary-color);
   text-align: center;
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/index/bg-people-office_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-title {
@@ -232,8 +246,7 @@ p {
   color: var(--bg-cornflower-color);
 }
 
-footer,
-.section-one {
+footer {
   background: var(--primary-color);
 }
 
