@@ -260,7 +260,10 @@ p {
   height: 16px;
   align-items: center;
 }
-
+.btn-social:hover,
+.btn-social:focus {
+  background-color: var(--bg-ocean-color);
+}
 .list-customers {
   display: flex;
   justify-content: center;
@@ -275,7 +278,6 @@ p {
   width: 104px;
   height: 56px;
   fill: #8e8f99;
-  /* style="fill:var(--color4, #8e8f99)" */
 }
 
 .logo-icon:hover {
@@ -283,10 +285,6 @@ p {
   height: 56px;
   fill: var(--bg-ocean-color);
 }
-/* .btn-customers:hover,
-.btn-customers:focus{
-  fill:var(--bg-ocean-color);
-} */
 
 /* footer section */
 .logo.footer {
