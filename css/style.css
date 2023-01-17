@@ -19,7 +19,7 @@
   --margin-24: 24px;
   --margin-48: 48px;
   --padding-margin-none: 0;
-  --drop-shadow: X0 Y1 B6 S0 #2e2f42;
+  --drop-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 body {
   font-family: var(--brand-primary-fonts);
@@ -82,6 +82,7 @@ p {
 
 .header {
   border-bottom: solid 1px var(--bg-cornflower-color);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .list {
   list-style: var(--none-list-bullets);
@@ -176,13 +177,12 @@ p {
 .btn-order {
   background: var(--bg-iris-color);
   color: var(--bg-white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
 }
 .btn-order:hover,
 .btn-order:focus {
   background: var(--bg-ocean-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .sub-title,
@@ -239,7 +239,12 @@ p {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
+.team-member:hover,
+.team-member:focus {
+  box-shadow: var(--drop-shadow);
+  border-radius: 6px;
+  offset: 0px, 1px;
+}
 .btn-social {
   width: 40px;
   height: 40px;
@@ -317,6 +322,7 @@ footer {
 .btn-filter:focus {
   background: var(--bg-ocean-color);
   color: var(--bg-white-color);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .btn-filter {
   background: var(--bg-cloud-color);
@@ -354,10 +360,15 @@ img {
 .project-card:focus {
   background-blend-mode: soft-light;
   mix-blend-mode: normal;
+  box-shadow: var(--drop-shadow);
+  offset: 0px, 1px;
+  border-radius: 6px;
 }
 .project-list > .prj-item:hover,
 .project-list > .prj-item:focus {
-  box-shadow: var(--drop-shadow);
+  box-shadow: 1px 4px 4px rgba(46, 47, 66, 0.08);
+  border-radius: 6px;
+  offset: 0px, 1px;
 }
 
 footer {
