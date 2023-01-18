@@ -252,6 +252,9 @@ p {
   box-shadow: var(--drop-shadow);
   border-radius: 6px;
 }
+.svg-a {
+  cursor: pointer;
+}
 .link-social {
   width: 40px;
   height: 40px;
@@ -299,16 +302,15 @@ p {
   fill: var(--bg-light-slate-color);
 }
 
-/* .logo-icon:hover,
+.logo-icon:hover,
 .logo-icon:focus {
   fill: var(--bg-ocean-color);
-} */
+}
 
-a.link-customers:hover,
-a.link-customers:focus {
+.link-customers:hover,
+.link-customers:focus {
   border: 1px solid var(--bg-ocean-color);
   border-radius: 6px;
-  fill: var(--bg-ocean-color);
 }
 
 /* footer section */
