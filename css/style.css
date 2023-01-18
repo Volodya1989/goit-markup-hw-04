@@ -286,6 +286,7 @@ p {
   display: flex;
   justify-content: center;
 }
+
 .link-customers {
   display: flex;
   justify-content: center;
@@ -294,23 +295,22 @@ p {
   width: 168px;
   height: 88px;
   border: 1px solid var(--bg-light-slate-color);
+  border-radius: 6px;
   padding: 0;
+  color: var(--bg-light-slate-color);
 }
+
 .logo-icon {
   width: 104px;
   height: 56px;
-  fill: var(--bg-light-slate-color);
-}
-
-.logo-icon:hover,
-.logo-icon:focus {
-  fill: var(--bg-ocean-color);
+  fill: currentColor;
 }
 
 .link-customers:hover,
 .link-customers:focus {
   border: 1px solid var(--bg-ocean-color);
   border-radius: 6px;
+  color: var(--bg-ocean-color);
 }
 
 /* footer section */
