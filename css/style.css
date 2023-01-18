@@ -194,9 +194,20 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.value-icon,
+
 .team-description {
   margin-bottom: 8px;
+}
+.svg-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.value-icon {
+  width: 264px;
+  height: 112px;
 }
 .value-item:not(:last-child),
 .about-item:not(:last-child),
@@ -272,7 +283,10 @@ p {
   display: flex;
   justify-content: center;
 }
-.btn-customers {
+.link-customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   width: 168px;
   height: 88px;
@@ -285,15 +299,16 @@ p {
   fill: var(--bg-light-slate-color);
 }
 
-.logo-icon:hover,
+/* .logo-icon:hover,
 .logo-icon:focus {
   fill: var(--bg-ocean-color);
-}
+} */
 
-.btn-customers:hover,
-.btn-customers:focus {
+a.link-customers:hover,
+a.link-customers:focus {
   border: 1px solid var(--bg-ocean-color);
   border-radius: 6px;
+  fill: var(--bg-ocean-color);
 }
 
 /* footer section */
