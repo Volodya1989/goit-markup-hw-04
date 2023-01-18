@@ -276,17 +276,23 @@ p {
   width: 168px;
   height: 88px;
   border: 1px solid var(--bg-light-slate-color);
+  padding: 0;
 }
 .logo-icon {
   width: 104px;
   height: 56px;
-  fill: #8e8f99;
+  fill: var(--bg-light-slate-color);
 }
 
-.logo-icon:hover {
-  width: 104px;
-  height: 56px;
+.logo-icon:hover,
+.logo-icon:focus {
   fill: var(--bg-ocean-color);
+}
+
+.btn-customers:hover,
+.btn-customers:focus {
+  border: 1px solid var(--bg-ocean-color);
+  border-radius: 6px;
 }
 
 /* footer section */
