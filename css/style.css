@@ -45,8 +45,6 @@ body {
 
   margin-left: auto;
   margin-right: auto;
-
-  /* outline: red dashed 2px; */
 }
 p {
   margin-top: var(--padding-margin-none);
