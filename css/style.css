@@ -141,8 +141,8 @@ p {
 
 .header-links:hover,
 .header-links:focus,
-.btn-social:hover,
-.btn-social:focus {
+.link-social:hover,
+.link-social:focus {
   color: var(--bg-ocean-color);
 }
 
@@ -241,9 +241,12 @@ p {
   box-shadow: var(--drop-shadow);
   border-radius: 6px;
 }
-.btn-social {
+.link-social {
   width: 40px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   border: none;
   padding: 0;
@@ -256,13 +259,13 @@ p {
   padding-left: 16px;
   padding-right: 16px;
 }
-.btn-icon {
+.svg-icon {
   width: 16px;
   height: 16px;
   fill: var(--bg-cloud-color);
 }
-.btn-social:hover,
-.btn-social:focus {
+.link-social:hover,
+.link-social:focus {
   background-color: var(--bg-ocean-color);
 }
 .list-customers {
@@ -333,12 +336,12 @@ footer {
   align-items: center;
 }
 
-.btn-footer {
+.social-footer {
   background-color: var(--primary-color);
 }
 
-.btn-footer:hover,
-.btn-footer:focus {
+.social-footer:hover,
+.social-footer:focus {
   background-color: #31d0aa;
 }
 .title-footer {
