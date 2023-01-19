@@ -55,6 +55,11 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+.section-one {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 .section-three {
   padding-top: var(--padding-margin-none);
 }
@@ -151,7 +156,6 @@ p {
   background: var(--primary-color);
   text-align: center;
   max-width: 1440px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
