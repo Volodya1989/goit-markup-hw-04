@@ -1,6 +1,6 @@
 # FLEX
 
-![badmath](https://img.shields.io/badge/basic-FLEX-red)
+![badmath](https://img.shields.io/badge/basic-DECORATION-red)
 
 ![Contributor Covenant](https://img.shields.io/badge/license-MIT-brightgreen)
 
@@ -20,7 +20,7 @@
 
 This simple HTML file uses best practices for accessility and programming.
 
-[Deployed Decarative Efects HTML Link ](https://volodya1989.github.io/goit-markup-hw-04/)
+[Deployed Decarated HTML Link ](https://volodya1989.github.io/goit-markup-hw-04/)
 
 
 
